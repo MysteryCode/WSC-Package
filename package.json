@@ -1,0 +1,19 @@
+{
+	"name": "@mysterycode/de.mysterycode.wcf.template",
+	"version": "1.0.0",
+	"files": [
+		"ts/**/*"
+	],
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.22.0",
+		"@typescript-eslint/parser": "^5.22.0",
+		"eslint": "^8.14.0",
+		"eslint-config-prettier": "^8.5.0",
+		"prettier": "^2.6.2",
+		"tslib": "^2.4.0",
+		"typescript": "^4.6.4"
+	},
+	"dependencies": {
+		"@woltlab/wcf": "https://github.com/WoltLab/WCF.git#5.5"
+	}
+}

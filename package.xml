@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.mysterycode.wcf.template" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/5.5/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[WSC Package]]></packagename>
+		<packagename language="de"><![CDATA[WSC-Paket]]></packagename>
+		<packagedescription><![CDATA[The description of the package (max. 255 characters).]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Die Beschreibung des Pakets (max. 255 Zeichen).]]></packagedescription>
+		
+		<version>1.0.0 Beta 1</version>
+		<date>2022-06-16</date>
+		
+		<license><![CDATA[GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>]]></license>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[Author's Name]]></author>
+		<authorurl><![CDATA[https://www.example.com]]></authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="5.5.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="5.6.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+	</excludedpackages>
+	
+	<instructions type="install">
+		<instruction type="file" />
+		
+		<instruction type="database">acp/database/install_de.mysterycode.wcf.template.php</instruction>
+		
+		<instruction type="template" />
+		<instruction type="acpTemplate" />
+		
+		<instruction type="packageInstallationPlugin" />
+		
+		<instruction type="objectTypeDefinition" />
+		<instruction type="objectType" />
+		<instruction type="option" />
+		<instruction type="bbcode" />
+		<instruction type="acpMenu" />
+		<instruction type="eventListener" />
+		<instruction type="userGroupOption" />
+		<instruction type="templateListener" />
+		<instruction type="aclOption" />
+		<instruction type="coreObject" />
+		<instruction type="userProfileMenu" />
+		<instruction type="cronjob" />
+		<instruction type="page" />
+		<instruction type="box" />
+		<instruction type="menuItem" />
+		<instruction type="userNotificationEvent" />
+		<instruction type="clipboardAction" />
+		
+		<instruction type="language" />
+	</instructions>
+</package>
